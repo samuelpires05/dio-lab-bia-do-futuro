@@ -105,9 +105,3 @@ Você já preencheu seu questionário de perfil de investidor na sua corretora? 
 
 ---
 
-## Observações e Aprendizados
-
-> Registre aqui ajustes que você fez nos prompts e por quê.
-
-- [Observação 1]
-- [Observação 2]
