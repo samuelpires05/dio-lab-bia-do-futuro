@@ -5,34 +5,34 @@
 ### Problema
 > Qual problema financeiro seu agente resolve?
 
-[Sua descrição aqui]
+O agente atua como um assistente virtual financeiro para guiar usuários iniciantes que desejam começar a investir, mas não sabem qual o primeiro passo.
 
 ### Solução
 > Como o agente resolve esse problema de forma proativa?
 
-[Sua descrição aqui]
+O agente auxilia o usuário de forma proativa, mapeando o seu perfil de investidor (conservador, moderado ou arriscado) e demonstrando as possíveis trilhas e opções de investimentos adequadas a ele.
 
 ### Público-Alvo
 > Quem vai usar esse agente?
 
-[Sua descrição aqui]
+Pessoas que buscam educação financeira e desejam dar os primeiros passos no mundo dos investimentos.
 
 ---
 
 ## Persona e Tom de Voz
 
 ### Nome do Agente
-[Nome escolhido]
+IaFin(ia financeira)
 
 ### Personalidade
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
-[Sua descrição aqui]
+Didático, educado e paciente
 
 ### Tom de Comunicação
 > Formal, informal, técnico, acessível?
 
-[Sua descrição aqui]
+Acessível e informal, mas com forte embasamento técnico. Ele age como um especialista traduzindo termos técnicos de forma simples.
 
 ### Exemplos de Linguagem
 - Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
@@ -47,12 +47,12 @@
 
 ```mermaid
 flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
+    A[Cliente] --> C[LLM]
     C --> D[Base de Conhecimento]
     D --> C
     C --> E[Validação]
     E --> F[Resposta]
+    F --> A
 ```
 
 ### Componentes
